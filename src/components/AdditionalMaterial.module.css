@@ -1,0 +1,73 @@
+.additional {
+  background-color: var(--bg-primary);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.3s ease;
+  align-items: flex-start;
+}
+
+.item:hover {
+  transform: translateX(10px);
+}
+
+.iconWrapper {
+  width: 60px;
+  height: 60px;
+  background: var(--color-sky);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  flex-shrink: 0;
+}
+
+.type {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-lavender-accent);
+  letter-spacing: 1px;
+}
+
+.materialTitle {
+  font-size: 1.3rem;
+  margin: 5px 0 10px;
+}
+
+.materialDescription {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.downloadLink {
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: underline;
+  text-decoration-color: var(--color-sage-accent);
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+  .item {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}

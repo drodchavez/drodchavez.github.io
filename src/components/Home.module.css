@@ -1,0 +1,87 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  margin: 30px 0 40px;
+  max-width: 600px;
+}
+
+.actions {
+  display: flex;
+  gap: 20px;
+}
+
+.secondaryBtn {
+  font-weight: 600;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.secondaryBtn:hover {
+  text-decoration: underline;
+}
+
+.visual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.logoContainer {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-secondary);
+  box-shadow: var(--shadow-soft);
+}
+
+.logoImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 40px;
+}
+
+@media (max-width: 992px) {
+  .title {
+    font-size: 3rem;
+  }
+  .subtitle {
+    margin: 30px auto 40px;
+  }
+  .actions {
+    justify-content: center;
+  }
+  .logoContainer {
+    width: 300px;
+    height: 300px;
+  }
+}

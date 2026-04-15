@@ -1,0 +1,12 @@
+.leftAlignedPage {
+  text-align: left;
+  padding-top: 80px;
+}
+
+.leftAlignedPage section {
+  text-align: left;
+}
+
+.leftAlignedPage h2 {
+  text-align: left;
+}

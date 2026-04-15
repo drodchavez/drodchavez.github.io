@@ -1,0 +1,26 @@
+:root {
+  /* Pastel Palette */
+  --color-sage: #E8F5E9;
+  --color-sage-accent: #A5D6A7;
+  --color-sky: #E3F2FD;
+  --color-sky-accent: #90CAF9;
+  --color-lavender: #F3E5F5;
+  --color-lavender-accent: #CE93D8;
+  --color-moss: #7E8C54;
+  
+  /* Background & Text */
+  --bg-primary: #FAFAFA;
+  --bg-secondary: #FFFFFF;
+  --text-primary: #2D3436;
+  --text-secondary: #636E72;
+  
+  /* Gradients */
+  --gradient-pastel: var(--color-moss);
+  
+  /* Spacing & Borders */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
+  --container-width: 1100px;
+}
