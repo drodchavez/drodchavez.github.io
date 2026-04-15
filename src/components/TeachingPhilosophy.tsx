@@ -25,6 +25,17 @@ const TeachingPhilosophy: React.FC = () => {
     <section id="teaching" className={styles.teaching}>
       <div className={`${styles.container} container`}>
         <h2 className="section-title">Teaching philosophy</h2>
+        
+        <div className={styles.pillars}>
+          {pillars.map((pillar, index) => (
+            <div key={index} className={styles.pillar}>
+              <div className={styles.icon}>{pillar.icon}</div>
+              <h3 className={styles.pillarTitle}>{pillar.title}</h3>
+              <p className={styles.pillarDescription}>{pillar.description}</p>
+            </div>
+          ))}
+        </div>
+
         <div className={styles.content}>
           <div className={styles.details}>
             <p>
