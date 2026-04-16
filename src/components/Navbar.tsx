@@ -18,7 +18,6 @@ const Navbar: React.FC = () => {
       <div className={`${styles.container} container`}>
         <Link to="/" className={styles.logo}>Daniela Rodriguez-Chavez</Link>
         <ul className={styles.navLinks}>
-          <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About Me</Link></li>
           <li><Link to="/projects">Projects</Link></li>
           <li><Link to="/teaching">Teaching</Link></li>
