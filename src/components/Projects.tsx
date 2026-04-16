@@ -7,28 +7,28 @@ import cantosTierraImg from '../assets/cantos_de_mi_tierra.jpeg';
 const Projects: React.FC = () => {
   const projectList = [
     {
-      title: "Korsa's unplugged cabaret",
+      title: "Korsa's Unplugged Cabaret",
       description: 'No set, no costumes, no distractions: just great musical theater, unplugged.',
       tags: ['Music Direction', 'Cabaret', 'Educational Theater'],
       demo: 'https://korsamt.org/2025-2026/',
       image: null
     },
     {
-      title: "CCCT's into the woods",
+      title: "CCCT's Into The Woods",
       description: "Everyone's wish is granted, but the consequences of their actions return to haunt them later.",
       tags: ['Music Direction', 'Educational Theater', 'Original Orchestration'],
       demo: 'https://us.patronbase.com/_ContraCostaCivicTheatre/Productions/TCM5/Performances',
       image: null
     },
     {
-      title: 'Cantos de mi tierra',
+      title: 'Cantos De Mi Tierra',
       description: 'Celebrating the richness of Latin American music in an intimate cabaret setting.',
       tags: ['Music Direction', 'Cabaret', 'Latin American Music'],
       demo: 'https://cabaretlatinocantosdemitierra.com',
       image: cantosTierraImg
     },
     {
-      title: 'The family copoli',
+      title: 'The Family Copoli',
       description: 'A new post-apocalyptic burlesque musical.',
       tags: ['Music Direction', 'Original Work', 'Musical Theatre'],
       demo: 'https://thefamilycopoli.com',

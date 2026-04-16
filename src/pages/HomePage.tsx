@@ -9,8 +9,8 @@ const HomePage: React.FC = () => {
     <>
       <Home />
       <About />
-      <Projects />
       <TeachingPhilosophy />
+      <Projects />
     </>
   );
 };
