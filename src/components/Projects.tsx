@@ -4,7 +4,11 @@ import { ExternalLink } from 'lucide-react';
 import familyCopoliImg from '../assets/the_family_copoli.jpg';
 import cantosTierraImg from '../assets/cantos_de_mi_tierra.jpeg';
 
-const Projects: React.FC = () => {
+interface ProjectsProps {
+  view?: 'grid' | 'list';
+}
+
+const Projects: React.FC<ProjectsProps> = ({ view = 'grid' }) => {
   const projectList = [
     {
       title: "Korsa's Unplugged Cabaret",
@@ -36,15 +40,17 @@ const Projects: React.FC = () => {
     }
   ];
 
+  const containerClass = view === 'list' ? styles.list : styles.grid;
+
   return (
     <section id="projects" className={styles.projects}>
       <div className={`${styles.container} container`}>
         <h2 className="section-title">Recent projects</h2>
-        <div className={styles.grid}>
+        <div className={containerClass}>
           {projectList.map((project, index) => (
-            <div key={index} className={styles.card}>
+            <div key={index} className={view === 'list' ? styles.listCard : styles.card}>
               <div 
-                className={styles.cardImage} 
+                className={view === 'list' ? styles.listCardImage : styles.cardImage} 
                 style={project.image ? { backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundPosition: 'center', opacity: 1 } : {}}
               ></div>
               <div className={styles.cardContent}>

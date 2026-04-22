@@ -2,6 +2,7 @@
   background-color: var(--bg-primary);
 }
 
+/* Grid Layout (Pillars) */
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -43,6 +44,53 @@
   opacity: 0.8;
 }
 
+/* List Layout */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.listCard {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+@media (max-width: 800px) {
+  .listCard {
+    flex-direction: column;
+  }
+}
+
+.listCard:hover {
+  transform: translateX(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.listCardImage {
+  width: 300px;
+  min-width: 300px;
+  height: auto;
+  min-height: 200px;
+  background: var(--gradient-pastel);
+  opacity: 0.8;
+}
+
+@media (max-width: 800px) {
+  .listCardImage {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+/* Common Content Styles */
 .cardContent {
   padding: 25px;
   flex: 1;

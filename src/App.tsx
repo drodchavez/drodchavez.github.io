@@ -5,7 +5,6 @@ import HomePage from './pages/HomePage';
 import AboutMePage from './pages/AboutMePage';
 import ProjectsPage from './pages/ProjectsPage';
 import TeachingPage from './pages/TeachingPage';
-import MaterialPage from './pages/MaterialPage';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
           <Route path="/about" element={<AboutMePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/teaching" element={<TeachingPage />} />
-          <Route path="/material" element={<MaterialPage />} />
         </Routes>
       </main>
       <Footer />

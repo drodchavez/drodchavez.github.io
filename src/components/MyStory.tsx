@@ -9,7 +9,9 @@ const MyStory: React.FC = () => {
         <h2 className="section-title">My story</h2>
         <div className={styles.layout}>
           <div className={styles.content}>
-            <p>Test. This is where you can share your journey, from your musical training to your current career. You can talk about your inspirations, challenges, and the milestones that have shaped you as an artist and educator.</p>
+            <p>When I was 12 years old, I remember sitting at a grand piano in a shopping mall and playing a 
+              piece I had been working on.  The piano was situated in a seating area right next to an escalator, 
+              and I remember as I played, a dollar bill floated </p>
           </div>
           <div className={styles.imageWrapper}>
             <img src={babyPhoto} alt="Daniela as a baby" className={styles.photo} />

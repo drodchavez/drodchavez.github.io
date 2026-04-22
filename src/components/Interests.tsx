@@ -11,15 +11,20 @@ const Interests: React.FC = () => {
           <div className={styles.grid}>
             <div className={styles.card}>
               <h3>Musical direction</h3>
-              <p>Collaborating with theaters and ensembles to bring musical scores to life.</p>
+              <p>Collaborating with theaters to bring musicals to life! I serve as audition pianist, 
+                rehearsal pianist, vocal director, band director, and keyboard-conductor. I have a reliable 
+                network of musicians and I have experience re-orchestrating and re-arranging if needed.
+              </p>
             </div>
             <div className={styles.card}>
               <h3>Educational theater</h3>
-              <p>Directing and music directing productions designed for young performers and communities.</p>
+              <p>Music directing productions focused on giving youth performers a strong skillset. I greatly enjoy
+                working with students to bring a musical story to 
+              </p>
             </div>
             <div className={styles.card}>
               <h3>Teaching</h3>
-              <p>Fostering the next generation of artists through inclusive and joy-based instruction.</p>
+              <p>Giving students the opportunity to express themselves through music and singing. </p>
             </div>
             <div className={styles.card}>
               <h3>Original works</h3>
