@@ -18,9 +18,6 @@ const About: React.FC = () => {
             I also performed at both the Edinburgh Fringe and Hollywood Fringe Festival, music directing and piano conducting original musicals, 
             and am the co-music director and pianist of Cantos de Mi Tierra, a group dedicated to sharing Latin American music.
           </p>
-          <p className={styles.text}>
-            Outside of music, I conduct mathematical research related to mosquito-borne diseases.
-          </p>
         </div>
       </div>
     </section>
