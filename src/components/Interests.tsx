@@ -13,18 +13,18 @@ const Interests: React.FC = () => {
               <h3>Musical direction</h3>
               <p>Collaborating with theaters to bring musicals to life! I serve as audition pianist, 
                 rehearsal pianist, vocal director, band director, and keyboard-conductor. I have a reliable 
-                network of musicians and I have experience re-orchestrating and re-arranging if needed.
+                network of musicians and I have experience re-arranging and re-programming if needed.
               </p>
             </div>
             <div className={styles.card}>
               <h3>Educational theater</h3>
               <p>Music directing productions focused on giving youth performers a strong skillset. I greatly enjoy
-                working with students to bring a musical story to 
+                working with students to bring a musical story to... testing this
               </p>
             </div>
             <div className={styles.card}>
               <h3>Teaching</h3>
-              <p>Giving students the opportunity to express themselves through music and singing. </p>
+              <p>Giving students the opportunity to express themselves through music and singing. I am both a  </p>
             </div>
             <div className={styles.card}>
               <h3>Original works</h3>
