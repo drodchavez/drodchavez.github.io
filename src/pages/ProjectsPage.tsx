@@ -9,6 +9,7 @@ const ProjectsPage: React.FC = () => {
         <h2>More Projects</h2>
         <p>You can add more detailed project information or additional projects here.</p>
       </div>
+      <Experience />
     </div>
   );
 };

@@ -8,9 +8,6 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Home />
-      <About />
-      <TeachingPhilosophy />
-      <Projects />
     </>
   );
 };

@@ -1,13 +1,13 @@
 import React from 'react';
 import styles from './About.module.css';
-import headshot from '../assets/headshot.jpeg';
+import babyPhoto from '../assets/baby_photo.jpg';
 
 const About: React.FC = () => {
   return (
     <section id="about" className={styles.about}>
       <div className={`${styles.container} container`}>
         <div className={styles.imageWrapper}>
-          <img src={headshot} alt="Daniela" className={styles.profileImage} />
+          <img src={babyPhoto} alt="Daniela baby photo" className={styles.profileImage} />
         </div>
         <div className={styles.content}>
           <h2 className="section-title">About me</h2>

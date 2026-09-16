@@ -11,10 +11,8 @@ const AboutMePage: React.FC = () => {
     <div className={styles.leftAlignedPage}>
       <div className="container">
         <About />
-        <MyStory />
         <Interests />
         <Experience />
-        <Contact />
       </div>
     </div>
   );
