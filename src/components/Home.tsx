@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css';
-import logo from '../assets/prelim_logo_design.png';
+import Headshot from '../assets/headshot.jpg';   
 
 const Home: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Home: React.FC = () => {
         <div className={styles.content}>
           <div className={styles.visual}>
             <div className={styles.logoContainer}>
-              <img src={logo} alt="Daniela Music Studio Logo" className={styles.logoImage} />
+              <img src={Headshot} alt="Daniela headshot" className={styles.photo} /> 
             </div>
           </div>
           <p className={styles.subtitle}>
