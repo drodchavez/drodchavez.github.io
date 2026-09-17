@@ -10,18 +10,32 @@ interface ProjectsProps {
 
 const Projects: React.FC<ProjectsProps> = ({ view = 'grid' }) => {
   const projectList = [
-    {
-      title: "Korsa's Unplugged Cabaret",
-      description: 'No set, no costumes, no distractions: just great musical theater, unplugged.',
-      tags: ['Music Direction', 'Cabaret', 'Educational Theater'],
-      demo: 'https://korsamt.org/2025-2026/',
+      {
+      title: "Falsettos @ The Rhino",
+      description: '',
+      tags: ['Music Direction', 'Mainstage'],
+      demo: 'https://www.therhino.org/season,
+      image: null
+    },
+      {
+      title: "Cabaret @ Throckmorton Theater",
+      description: '',
+      tags: ['Music Direction', 'Educational Theater'],
+      demo: 'https://www.throckmortontheatre.org/theatre',
       image: null
     },
     {
-      title: "CCCT's Into The Woods",
-      description: "Everyone's wish is granted, but the consequences of their actions return to haunt them later.",
-      tags: ['Music Direction', 'Educational Theater', 'Original Orchestration'],
-      demo: 'https://us.patronbase.com/_ContraCostaCivicTheatre/Productions/TCM5/Performances',
+      title: "Unplugged Cabaret @ Korsa Musical Theater",
+      description: 'No set, no costumes, no distractions: just great musical theater, unplugged.',
+      tags: ['Music Direction', 'Cabaret', 'Educational Theater'],
+      demo: 'https://korsamt.org/2026-2027/',
+      image: null
+    },
+    {
+      title: "A Year with Frog and Toad @ Contra Costa Civic Theatre",
+      description: "Witness a beautiful friendship through the seasons.",
+      tags: ['Music Direction', 'Mainstage'],
+      demo: 'https://www.ccct.org/frog-and-toad',
       image: null
     },
     {
@@ -34,7 +48,7 @@ const Projects: React.FC<ProjectsProps> = ({ view = 'grid' }) => {
     {
       title: 'The Family Copoli',
       description: 'A new post-apocalyptic burlesque musical.',
-      tags: ['Music Direction', 'Original Work', 'Musical Theatre'],
+      tags: ['Music Direction', 'Original Work'],
       demo: 'https://thefamilycopoli.com',
       image: familyCopoliImg
     }
@@ -45,7 +59,7 @@ const Projects: React.FC<ProjectsProps> = ({ view = 'grid' }) => {
   return (
     <section id="projects" className={styles.projects}>
       <div className={`${styles.container} container`}>
-        <h2 className="section-title">Recent projects</h2>
+        <h2 className="section-title">Upcoming, current, and notable projects</h2>
         <div className={containerClass}>
           {projectList.map((project, index) => (
             <div key={index} className={view === 'list' ? styles.listCard : styles.card}>
