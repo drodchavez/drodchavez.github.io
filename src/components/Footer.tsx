@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Footer.module.css';
 
 const Footer: React.FC = () => {
-  const lastUpdated = "April 7, 2026"; // Today's date from context
+  const lastUpdated = "September 17, 2026"; // Today's date from context
 
   return (
     <footer className={styles.footer}>

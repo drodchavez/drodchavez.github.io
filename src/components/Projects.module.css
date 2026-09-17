@@ -1,5 +1,6 @@
 .projects {
   background-color: var(--bg-primary);
+  padding-bottom: 20px;
 }
 
 /* Grid Layout (Pillars) */
