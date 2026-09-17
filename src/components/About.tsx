@@ -10,13 +10,14 @@ const About: React.FC = () => {
           <img src={babyPhoto} alt="Daniela baby photo" className={styles.profileImage} />
         </div>
         <div className={styles.content}>
-          <h2 className="section-title">About me</h2>
+          <h2 className="section-title">About</h2>
           <p className={styles.text}>
-            Hello! I'm Daniela, a classically-trained pianist and freelance music director, orchestrator, composer, 
-            accompanist, and teacher based in Oakland, CA. I have worked with theater 
-            companies including Berkeley Playhouse, Theatre Rhinoceros, Korsa Musical Theater, Throckmorton, Contra Costa Civic Theatre, TMC Arts, and Chanticleer's Theater. 
-            I also performed at both the Edinburgh Fringe and Hollywood Fringe Festival, music directing and piano conducting original musicals, 
-            and am the co-music director and pianist of Cantos de Mi Tierra, a group dedicated to sharing Latin American music.
+            Daniela is a classically-trained pianist and freelance music director, orchestrator, composer, 
+            accompanist, and teacher based in Oakland, CA. She has worked with theater 
+            companies including Berkeley Playhouse, Theatre Rhinoceros, Korsa Musical Theater, Throckmorton Theatre, 
+            Contra Costa Civic Theatre, TMC Arts, and Chanticleer's Theater. 
+            She also performed at both the Edinburgh Fringe and Hollywood Fringe Festival, music directing and piano conducting original musicals, 
+            and is the co-music director and pianist of Cantos de Mi Tierra, a group dedicated to sharing Latin American music around the Bay Area.
           </p>
         </div>
       </div>
