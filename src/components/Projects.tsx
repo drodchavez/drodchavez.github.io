@@ -14,7 +14,7 @@ const Projects: React.FC<ProjectsProps> = ({ view = 'grid' }) => {
       title: "Falsettos @ The Rhino",
       description: '',
       tags: ['Music Direction', 'Mainstage'],
-      demo: 'https://www.therhino.org/season,
+      demo: 'https://www.therhino.org/season',
       image: null
     },
       {
