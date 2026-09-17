@@ -1,9 +1,7 @@
 import React from 'react';
 import About from '../components/About';
-import MyStory from '../components/MyStory';
 import Interests from '../components/Interests';
 import Experience from '../components/Experience';
-import Contact from '../components/Contact';
 import styles from './AboutMePage.module.css';
 
 const AboutMePage: React.FC = () => {

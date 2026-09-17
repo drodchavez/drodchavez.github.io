@@ -1,5 +1,6 @@
 import React from 'react';
 import Projects from '../components/Projects';
+import Experience from '../components/Experience';
 
 const ProjectsPage: React.FC = () => {
   return (
