@@ -68,7 +68,7 @@ const Projects: React.FC<ProjectsProps> = ({ view = 'grid' }) => {
   return (
     <section id="projects" className={styles.projects}>
       <div className={`${styles.container} container`}>
-        <h2 className="section-title">Upcoming, current, and notable projects</h2>
+        <h2 className="section-title">Upcoming, Current, and Notable Projects</h2>
         <div className={containerClass}>
           {projectList.map((project, index) => (
             <div key={index} className={view === 'list' ? styles.listCard : styles.card}>

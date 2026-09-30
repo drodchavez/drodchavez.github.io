@@ -10,14 +10,14 @@ const Interests: React.FC = () => {
         <div className={styles.layout}>
           <div className={styles.grid}>
             <div className={styles.card}>
-              <h3>Musical direction</h3>
+              <h3>Musical Direction</h3>
               <p>Collaborating with theaters to bring musicals to life. Daniela serve as audition pianist, 
                 rehearsal pianist, vocal director, band director, and keyboard-conductor. She can also re-arrange and re-program 
                 the music upon request to fit the needs of the production.
               </p>
             </div>
             <div className={styles.card}>
-              <h3>Educational theater</h3>
+              <h3>Educational Theater</h3>
               <p>Working with pre-professional actors as a teaching artist. Daniela believes that great actors are not born, 
                 but cultivated through training and experience. She has worked with students of all ages, from elementary school to undergraduates,
                 and has a passion for helping young performers develop their skills and confidence on the musical stage.            
@@ -31,7 +31,7 @@ const Interests: React.FC = () => {
               </p>
             </div>
             <div className={styles.card}>
-              <h3>Original works</h3>
+              <h3>Original Works</h3>
               <p>Composing and arranging new music that pushes the boundaries of storytelling. Daniela deeply enjoys being part of original work. 
                 She has music directed, translated, and arranged music for new works and is also currently working on her own original projects. 
               </p>
