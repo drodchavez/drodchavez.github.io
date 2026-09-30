@@ -3,6 +3,8 @@ import styles from './Projects.module.css';
 import { ExternalLink } from 'lucide-react';
 import familyCopoliImg from '../assets/the_family_copoli.jpg';
 import cantosTierraImg from '../assets/cantos_de_mi_tierra.jpeg';
+import 13TheMusicalImg from '../assets/13_themusical.png';
+import upcomingProject from '../assets/upcoming_project.png';
 
 interface ProjectsProps {
   view?: 'grid' | 'list';
@@ -13,35 +15,42 @@ const Projects: React.FC<ProjectsProps> = ({ view = 'grid' }) => {
       {
       title: "Falsettos @ The Rhino",
       description: '',
-      tags: ['Music Direction', 'Mainstage'],
+      tags: ['Music Direction', 'Original Orchestration'],
       demo: 'https://www.therhino.org/season',
-      image: null
+      image: upcomingProject
     },
       {
       title: "Cabaret @ Throckmorton Theater",
       description: '',
       tags: ['Music Direction', 'Educational Theater'],
       demo: 'https://www.throckmortontheatre.org/theatre',
-      image: null
+      image: upcomingProject
     },
     {
       title: "Unplugged Cabaret @ Korsa Musical Theater",
       description: 'No set, no costumes, no distractions: just great musical theater, unplugged.',
-      tags: ['Music Direction', 'Cabaret', 'Educational Theater'],
+      tags: ['Music Direction', 'Cabaret', 'Educational Theater', 'Original Arrangement'],
       demo: 'https://korsamt.org/2026-2027/',
-      image: null
+      image: upcomingProject
     },
     {
       title: "A Year with Frog and Toad @ Contra Costa Civic Theatre",
       description: "Witness a beautiful friendship through the seasons.",
-      tags: ['Music Direction', 'Mainstage'],
+      tags: ['Music Direction'],
       demo: 'https://www.ccct.org/frog-and-toad',
-      image: null
+      image: upcomingProject
+    },
+    {
+      title: '13: The Musical',
+      description: 'After being uprooted from New York, soon-to-be-13 Evan Goldman learns what Appleton, Indiana is all about.',
+      tags: ['Music Direction', 'Educational Theater', 'Vocal Direction', 'Mainstage'],
+      demo: 'https://korsamt.org/who-we-are/',
+      image: 13TheMusicalImg
     },
     {
       title: 'Cantos De Mi Tierra',
       description: 'Celebrating the richness of Latin American music in an intimate cabaret setting.',
-      tags: ['Music Direction', 'Cabaret', 'Latin American Music'],
+      tags: ['Music Direction', 'Cabaret', 'Original Arrangement', 'Latin American Music'],
       demo: 'https://cabaretlatinocantosdemitierra.com',
       image: cantosTierraImg
     },
