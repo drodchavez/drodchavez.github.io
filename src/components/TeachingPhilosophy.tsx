@@ -14,6 +14,11 @@ const TeachingPhilosophy: React.FC = () => {
               I prioritize teaching rooted in curiosity and joy. Whether in the theater space or one-on-one in the studio,
               my goal is to help students of all ages express themselves authentically. 
             </p>
+
+            <p>
+              I currently have private piano and vocal students and also am a piano and vocal instructor at 
+              Magnolia Music Studio in Oakland. Inquiries for potential students can be made to drodchavez@gmail.com. 
+            </p>
           </div>
         </div>
       </div>
