@@ -3,7 +3,7 @@ import styles from './Projects.module.css';
 import { ExternalLink } from 'lucide-react';
 import familyCopoliImg from '../assets/the_family_copoli.jpg';
 import cantosTierraImg from '../assets/cantos_de_mi_tierra.jpeg';
-import 13TheMusicalImg from '../assets/13_themusical.png';
+import ThirteenTheMusicalImg from '../assets/thirteen_themusical.png';
 import upcomingProject from '../assets/upcoming_project.png';
 
 interface ProjectsProps {
@@ -45,7 +45,7 @@ const Projects: React.FC<ProjectsProps> = ({ view = 'grid' }) => {
       description: 'After being uprooted from New York, soon-to-be-13 Evan Goldman learns what Appleton, Indiana is all about.',
       tags: ['Music Direction', 'Educational Theater', 'Vocal Direction', 'Mainstage'],
       demo: 'https://korsamt.org/who-we-are/',
-      image: 13TheMusicalImg
+      image: ThirteenTheMusicalImg
     },
     {
       title: 'Cantos De Mi Tierra',
